@@ -4,11 +4,13 @@
 
 The source data used in creating the tidy data set is https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+The original data set is fully described in the README.txt included in the zip file.  The data consists of sensor data collected from a smart phone while subjects performed different physical activities.  The original data set is split up into the train and test data sets.  Each data set consists of multiple files containing parts of the data and files with the labels for the data.
+
 ## Tidy Data Overview
 
 ### Data set
 
-The resulting data set contains 14220 observations of 4 variables.  
+The resulting data set contains 14220 observations of 4 variables.  Each observation is in a different row and each variable is in a single column.
 
 Each observation is a record of the the mean of all measurements for a combination of subject, activity, and variable from the original source data set.
 
