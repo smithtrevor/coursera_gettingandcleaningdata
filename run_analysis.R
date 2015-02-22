@@ -4,8 +4,6 @@ library(tidyr)
 library(reshape2)
 
 # Merge the trianing and the test sets
-start_dir <- getwd()
-setwd("/tmp/data")
 
 ## read in the test data set
 test_raw <- read.table("./test/X_test.txt")
@@ -47,7 +45,5 @@ avg_by_subject_activity <- summarize(grouped_data, mean(value))
 colnames(avg_by_subject_activity) <- c('subject','activity','variable','mean')
 
 # write out the independent data set
-write.table(avg_by_subject_activity, file = paste(start_dir, "/avg_by_subject_activity.txt", sep=""), row.names = FALSE)
+write.table(avg_by_subject_activity, file = "./avg_by_subject_activity.txt", row.names = FALSE)
 
-# return to start_dir
-setwd(start_dir)
