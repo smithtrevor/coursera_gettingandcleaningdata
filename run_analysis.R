@@ -1,7 +1,6 @@
 # load needed libraries
 library(dplyr)
 library(tidyr)
-# library(reshape2)
 
 # Merge the trianing and the test sets
 start_dir <- getwd()
