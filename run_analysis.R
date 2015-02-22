@@ -45,7 +45,7 @@ grouped_data <- group_by(tidy_data, subject,activity_label, variable)
 avg_by_subject_activity <- summarize(grouped_data, mean(value))
 
 # write out the independent data set
-write.table(avg_by_subject_activity, file = "./avg_by_subject_activity.txt", row.names = FALSE)
+write.table(avg_by_subject_activity, file = paste(start_dir, "/avg_by_subject_activity.txt", sep=""), row.names = FALSE)
 
 # return to start_dir
 setwd(start_dir)
