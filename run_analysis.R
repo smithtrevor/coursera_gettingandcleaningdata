@@ -43,6 +43,7 @@ tidy_data <- filter(combined_data, grepl('std|mean', combined_data$variable))
 # create an independent data set with the average of each variable for each activity and subject
 grouped_data <- group_by(tidy_data, subject,activity_label, variable)
 avg_by_subject_activity <- summarize(grouped_data, mean(value))
+colnames(avg_by_subject_activity) <- c('subject','activity','variable','mean')
 
 # write out the independent data set
 write.table(avg_by_subject_activity, file = paste(start_dir, "/avg_by_subject_activity.txt", sep=""), row.names = FALSE)
