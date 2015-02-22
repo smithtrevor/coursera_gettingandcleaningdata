@@ -8,6 +8,15 @@ The original data set is fully described in the README.txt included in the zip f
 
 ## Tidy Data Overview
 
+The transformation of the original source data to create the tidy data set includes the following steps:
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
 ### Data set
 
 The resulting data set contains 14220 observations of 4 variables.  Each observation is in a different row and each variable is in a single column.
