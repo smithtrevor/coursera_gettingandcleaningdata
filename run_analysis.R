@@ -7,7 +7,6 @@ library(tidyr)
 start_dir <- getwd()
 setwd("/tmp/data")
 
-
 ## read in the test data set
 test_raw <- read.table("./test/X_test.txt")
 test_subjects <- read.table("./test/subject_test.txt")
