@@ -4,10 +4,7 @@
 This script depends on the tidyr, reshape2 and dplyr packages and assumes they are already installed. It does load the libraries.
 
 ## Setup
-The script will record your current working directory and return you to it after run.  It assumes you have downloaded the source data
-prior to performing the analysis.
-
-The working directory is set to /tmp/data.  This can be changed on line 8 as necessary.
+The script assumes your working directory is set to the top level directory of the samsung data set.
 
 The data can be retrieved from, https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
