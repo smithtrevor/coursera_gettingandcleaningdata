@@ -5,7 +5,7 @@ library(tidyr)
 
 # Merge the trianing and the test sets
 start_dir <- getwd()
-setwd("/Users/trevor/Documents/workspace/getting_and_cleaning_data/course_proj/UCI HAR Dataset")
+setwd("/tmp/data")
 
 
 ## read in the test data set
