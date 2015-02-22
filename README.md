@@ -1,7 +1,7 @@
 # Course Project - Getting and Cleaning Data
 
 ## Dependencies
-This script depends on the tidyr and dplyr packages and assumes they are already installed. It does load the libraries.
+This script depends on the tidyr, reshape2 and dplyr packages and assumes they are already installed. It does load the libraries.
 
 ## Setup
 The script will record your current working directory and return you to it after run.  It assumes you have downloaded the source data
