@@ -2,6 +2,8 @@
 
 ## Original Source Data
 
+The source data used in creating the tidy data set is https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 ## Tidy Data Overview
 
 ### Data set
